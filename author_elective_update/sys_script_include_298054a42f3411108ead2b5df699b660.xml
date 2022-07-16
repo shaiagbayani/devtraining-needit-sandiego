@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_58872_needit.validateEmailAddress</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>On demand Script Include to validate email address syntax using regular expressions.</description>
+        <name>validateEmailAddress</name>
+        <script><![CDATA[var validateEmailAddress = Class.create();
+validateEmailAddress.prototype = {
+    initialize: function() {
+    },
+
+    type: 'validateEmailAddress'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-16 13:12:49</sys_created_on>
+        <sys_id>298054a42f3411108ead2b5df699b660</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>validateEmailAddress</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_298054a42f3411108ead2b5df699b660</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-16 13:12:49</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>be53f3b6db14f740387021c405961936</instance_id>
+        <instance_name>dev76967</instance_name>
+        <name>sys_script_include_298054a42f3411108ead2b5df699b660</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_58872_needit.validateEmailAddress&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;On demand Script Include to validate email address syntax using regular expressions.&lt;/description&gt;&lt;name&gt;validateEmailAddress&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var validateEmailAddress = Class.create();
+validateEmailAddress.prototype = {
+    initialize: function() {
+    },
+
+    type: 'validateEmailAddress'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-16 13:12:49&lt;/sys_created_on&gt;&lt;sys_id&gt;298054a42f3411108ead2b5df699b660&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;validateEmailAddress&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_298054a42f3411108ead2b5df699b660&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-16 13:12:49&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-632282105</payload_hash>
+        <record_name>validateEmailAddress</record_name>
+        <reverted_from/>
+        <source>e97608372fe011108ead2b5df699b618</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-16 13:12:49</sys_created_on>
+        <sys_id>c01194642f3411108ead2b5df699b6d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1820723e74f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-16 13:12:49</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>0c119464123411104c1f0f13100e95d7</update_guid>
+        <update_guid_history>0c119464123411104c1f0f13100e95d7:-632282105</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-16 13:13:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>b93cc641dc744d0ca7cda27e5026ae44</sys_id>
+        <sys_metadata>298054a42f3411108ead2b5df699b660</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>validateEmailAddress</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_include_298054a42f3411108ead2b5df699b660</sys_update_name>
+        <sys_update_version display_value="sys_script_include_298054a42f3411108ead2b5df699b660">c01194642f3411108ead2b5df699b6d8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-16 13:13:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
